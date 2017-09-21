@@ -6,7 +6,15 @@
 </head>
 <body>
   <script>
-    console.log("HELLO WORLD!");
+    'use strict';
+    function Animal(name) {
+      this.name = name;
+      console.log(this);
+    }
+
+    var animal = new Animal("ёжик");
+
+    Animal();
   </script>
 </body>
 </html>
